@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "yoga",
+			"path": "../yoga/yoga"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wdd130"
+	}
+}
