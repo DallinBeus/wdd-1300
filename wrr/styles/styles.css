@@ -280,7 +280,23 @@
         margin-top: 10px;
     }
 
+
+
+
+
+
+
+
+
+    
     /*For FAQ page */
+
+    .text p {
+        padding: 1em;
+        text-align: left;
+        
+    }
+    
 
 
  @media screen and (max-width: 900px) {
