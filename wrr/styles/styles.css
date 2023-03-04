@@ -30,7 +30,11 @@
 
     #hero-msg h4 {
         text-align: center;
-        color: white;
+        color: rgba(255, 255, 255, 0.874);
+    }
+
+    #hero-msg h1 {
+        color: rgba(255, 255, 255, 0.961); 
     }
 
     #hero-img{
@@ -95,7 +99,7 @@
 
    
     .book, .join  {
-        background-color:#b6b2a5;
+        background-color: #fbaa34;
         color: #202A44;
         text-decoration: none;
         padding: 15px 30px;
