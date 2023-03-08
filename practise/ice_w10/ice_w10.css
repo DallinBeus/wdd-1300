@@ -1,0 +1,22 @@
+
+img {
+    border-style: solid;
+    align-items: right;
+    position:absolute;
+    right: 0px;
+}
+
+#p {
+text-align: left;
+text-align:justify;
+vertical-align: left;
+max-width: 100px;
+}
+
+#h1{
+text-align: justify;
+text-align:left;
+vertical-align: text-top;
+
+}
+
