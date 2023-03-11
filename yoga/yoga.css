@@ -4,11 +4,30 @@
 
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px auto;
     background-color: #C66E4E;
-    color: rgb(234, 226, 226);
+    color: #C66E4E;
+    border-style: solid;
 
 }
+#top {
+    width: 100%;
+    border-style: solid;
+}
+
+
+#logo_link {
+    height: 80px;
+    width: 80px;
+
+
+}
+
+nav a {
+    
+}
+
 
 
 
