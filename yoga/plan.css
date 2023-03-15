@@ -26,6 +26,17 @@ Fonts are separated by a | */
   --nav-hover-background-color: #C66E4E;
 }
 
+/*css for home page */
+#logo_link {
+  width: 100%;
+}
+
+.med img {
+  width: 100%;
+}
+
+
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
