@@ -1,5 +1,42 @@
 /*header*/
 
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    z-index: 1;
+}
+
+nav {
+    background-color: #C66E4E;
+    color: rgb(234, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
 
 
 header {
@@ -23,28 +60,6 @@ header {
 
 
 }
-
-nav a {
-    
-}
-
-
-
-
-/*main*/
-#three-img {
-    display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr;
-
-}
-
-
-
-
-
-
-
 
 
 
@@ -96,3 +111,4 @@ footer .social img:hover {
     transform: scale(1.1);
 }
 /*footer*/
+
