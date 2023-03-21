@@ -158,4 +158,11 @@ footer .social img:hover {
     padding-top: 15px;
   }
 
-  
+  #med{
+    width: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
