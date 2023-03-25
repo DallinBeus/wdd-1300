@@ -1,175 +1,119 @@
-/* /* /* header
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
-
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 35px;
-    z-index: 1;
+header{
+  display: grid;
+  grid-template-columns: 150px auto;
 }
 
-nav {
-    background-color: #C66E4E;
-    color: rgb(234, 226, 226);
-    padding: 10px;
-  }
-  
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-nav li {
-    margin: 0 10px;
-  }
-  
-nav a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-nav a:hover {
-    text-decoration: underline;
-  }
-
-
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #C66E4E;
-    color: #C66E4E;
-    border-style: solid;
-
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-#top {
-    width: 100%;
-    border-style: solid;
+.logo{
+  width: 100%;
 }
 
+#home-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  margin-top: 20px;
+}
 
-#logo_link {
-    height: 80px;
-    width: 80px;
+#home-grid img{
+  width: 100%;
+}
 
+/*text*/
+.text p {
+font-size: 35px;
+font-family: "Helvetica" , "Arial"; 
+}
 
+.text h2 {
+font-size: 60px;
+font-family: "Montserrat Alternates";
+}
+
+.text {
+  background-color: #C66E4E;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 65px solid #EEE1C6;
+  margin-top: 160px;
+  margin-bottom: 160px;
+  text-align: center;
+}
+
+.text3 {
+  opacity: .7;
+  font-size: 60px;
+  margin-top: -300px;
+  z-index: 1;
+  text-shadow:2px 2px #EEE1C6;
 }
 
 
 
 
-/*Footer*/
 
 
-/* footer {
-    background-color: #C66E4E;
-    color: rgb(234, 226, 226);
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+
 }
 
 footer a {
-    color: rgb(234, 226, 226);
-    text-decoration: none;
+  text-decoration: none;
 }
 
-footer p {
-    font-size: 1.2em;
+footer.social img {
+  padding-top: 15px;
 }
 
-footer p a:hover {
-    text-decoration: underline;
+.med_img {
+  width: 100%;
 }
 
-footer a:hover {
-    background-color: #FFA07A;
-    color: rgb(234, 226, 226);
+body {
+  margin: 0;
+  padding: 0;
 }
 
-footer .social img {
-    padding-top: 15px;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #FFA07A;
+/*Header*/
+
+header {
+  background-color: #EEE1C6;
+  
+
 }
 
-footer .social img:hover {
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #FFA07A;
+nav a {
+color: black;
 }
 
-footer .social img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
 /*footer*/
-
-/* Home page */
-/* main, img { 
-    
-    width: 500px;
-    height: 1000px;
+footer {
+  background-color: #EEE1C6;
+  color: black;
 }
-  */
 
-  header{
-    display: grid;
-    grid-template-columns: 150px auto;
-  }
-
-  nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .logo{
-    width: 100%;
-  }
-
-  #home-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 25px;
-  }
-
-  #home-grid img{
-    width: 100%;
-  }
-
-  footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 100px;
-
-  }
-
-  footer a {
-    text-decoration: none;
-  }
-
-  footer.social img {
-    padding-top: 15px;
-  }
-
-  #med{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
+footer a {
+  color: black;
+}
 
 
+/*FAQ*/
+#dog {
+  width: 100%;
+}
 
-
-
-/*FAQ css*/
+Heading Font: Montserrat Alternates
+Paragraph Font: Helvetica and Arial 
