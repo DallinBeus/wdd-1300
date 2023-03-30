@@ -115,3 +115,84 @@ footer a {
   width: 100%;
 }
 
+
+/*Yoga Peace Group*/
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr ;
+
+}
+
+main img {
+  width: 400px;
+  margin-left: 35%;
+  border: 50px solid #EEE1C6; 
+ 
+}
+
+#tree {
+grid-column: 1/2;
+grid-row: 1/2;
+width: 400px;
+}
+
+#side_twist {
+grid-column: 2/3;
+grid-row: 2/3;
+width: 400px;
+}
+
+#med2 {
+grid-column: 1/2;
+grid-row: 3/4;  
+width: 400px;
+}
+
+
+.tree {
+grid-column: 2/3;
+grid-row: 1/2;
+text-align: center;
+padding-top: 150px;
+
+}
+
+.side_twist {
+grid-column: 1/2;
+grid-row: 2/3;  
+text-align: center;
+padding-top: 150px;
+
+}
+
+.med2 {
+grid-column: 2/3;
+grid-row: 3/4;
+text-align: center;
+padding-bottom: 180px;
+}
+.txt-div {
+border: 50px solid #C66E4E; 
+background-color:  #EEE1C6; 
+color:  black;
+
+
+}
+
+main p {
+  margin: 75px;
+  font-size: 35px;
+}
+
+main h2 {
+  font-size: 60px;
+}
+
+#dark {
+  width: 100%;
+}
+
+
+
